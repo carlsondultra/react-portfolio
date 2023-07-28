@@ -43,11 +43,12 @@ const Landing = ({setSelectedPage}) => {
                         }}    
                     >
                         <p className="text-6xl font-playfair z-10 text-center md:text-start">
-                            Carlson Dultra
+                            Hello World!
                         </p>
 
                         <p className="mt-10 mb-7 text-sm text-center md:text-start">
-                            Welcome to my portfolio website!
+                            I'm Carlson, a software developer! <br></br> <br></br>
+                            Besides software development, I enjoy gaming 🎮, playing basketball 🏀, running 🏃, and weightlifting! 🏋️ 
                         </p>
                     </motion.div>
 
