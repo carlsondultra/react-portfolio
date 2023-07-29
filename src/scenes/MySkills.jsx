@@ -54,7 +54,7 @@ const MySkills = () => {
                         
             {/* SKILLS */}
             <div className="md:flex md:justify-between mt-16 gap-32">
-                {/* EXPERIENCE */}
+                {/* FRONT-END TECHNOLOGIES */}
                 <motion.div
                     className="md:w-1/3 mt-10"
                     initial="hidden"
@@ -77,10 +77,12 @@ const MySkills = () => {
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="100" height="100" alt="react"/>
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" width="100" height="100" alt="tailwind"/>
                         <i class="devicon-html5-plain-wordmark" style={{ fontSize: 100 }}></i>
+                        <i class="devicon-bootstrap-plain-wordmark" style={{ fontSize: 100 }}></i>
+                        <i class="devicon-css3-plain-wordmark" style={{ fontSize: 100 }}></i>
                     </p>
                 </motion.div>
 
-                {/* INNOVATIVE */}
+                {/* BACK-END TECHNOLOGIES */}
                 <motion.div
                     className="md:w-1/3 mt-10"
                     initial="hidden"
@@ -101,10 +103,13 @@ const MySkills = () => {
                     </div>
                     <p className="mt-5 sm:grid sm:grid-cols-4">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" width="100" height="100" alt="mongodb"/>
+                        <i class="devicon-express-original-wordmark" style={{ fontSize: 100 }}></i>
+                        <i class="devicon-neo4j-plain-wordmark" style={{ fontSize: 100 }}></i>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="100" height="100"/>
                     </p>
                 </motion.div>
 
-                {/* IMAGINATIVE */}
+                {/* OTHER TECHNOLOGIES */}
                 <motion.div
                     className="md:w-1/3 mt-10"
                     initial="hidden"
@@ -125,6 +130,10 @@ const MySkills = () => {
                     </div>
                     <p className="mt-5 sm:grid sm:grid-cols-4">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="100" height="100" alt="npm"/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="100" height="100" alt="javascript"/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="100" height="100" alt="typescript"/>
+                        <i class="devicon-bash-plain" style={{ fontSize: 100 }}></i>
+                        <i class="devicon-docker-plain-wordmark" style={{ fontSize: 100 }}></i>
                     </p>
                 </motion.div>
             </div>                
