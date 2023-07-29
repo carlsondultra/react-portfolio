@@ -25,7 +25,8 @@ const MySkills = () => {
                     </p>
                     <LineGradient width="w-1/3" />
                     <p className="mt-10 mb-7">
-                        TEST TEXT ETSTOESTESTOIESTOESITIOETLTESETSTESTTESTTEST
+                        Skills are mostly based on front-end and back-end software development! <br></br><br></br>
+                        I love working on different types of projects, and by working on them, I have a learned a wide variety of skills, including, but not limited to the following:
                     </p>
                 </motion.div>
 
@@ -50,7 +51,7 @@ const MySkills = () => {
                     )}
                 </div>
             </div>
-
+                        
             {/* SKILLS */}
             <div className="md:flex md:justify-between mt-16 gap-32">
                 {/* EXPERIENCE */}
@@ -67,13 +68,15 @@ const MySkills = () => {
                 >
                     <div className="relative h-32">
                         <div className="z-10">
-                            <p className="font-playfair font-semibold text-5xl">01</p>
-                            <p className="font-playfair font-semibold text-3xl mt-3">FIRST</p>
+                            <p className="font-playfair font-semibold text-5xl">Front-End</p>
+                            <p className="font-playfair font-semibold text-3xl mt-3">Technologies</p>
                         </div>
                         <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
                     </div>
-                    <p className="mt-5">
-                        FIRST TEST TEST TEST TETSTET TESTE 
+                    <p className="mt-5 sm:grid sm:grid-cols-4">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" width="100" height="100" alt="react"/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" width="100" height="100" alt="tailwind"/>
+                        <i class="devicon-html5-plain-wordmark" style={{ fontSize: 100 }}></i>
                     </p>
                 </motion.div>
 
@@ -91,13 +94,13 @@ const MySkills = () => {
                 >
                     <div className="relative h-32">
                         <div className="z-10">
-                            <p className="font-playfair font-semibold text-5xl">02</p>
-                            <p className="font-playfair font-semibold text-3xl mt-3">SECOND</p>
+                            <p className="font-playfair font-semibold text-5xl">Back-End</p>
+                            <p className="font-playfair font-semibold text-3xl mt-3">Technologies</p>
                         </div>
                         <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
                     </div>
-                    <p className="mt-5">
-                        SECOND TEST TEST TEST TETSTET TESTE 
+                    <p className="mt-5 sm:grid sm:grid-cols-4">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" width="100" height="100" alt="mongodb"/>
                     </p>
                 </motion.div>
 
@@ -115,16 +118,16 @@ const MySkills = () => {
                 >
                     <div className="relative h-32">
                         <div className="z-10">
-                            <p className="font-playfair font-semibold text-5xl">03</p>
-                            <p className="font-playfair font-semibold text-3xl mt-3">THIRD</p>
+                            <p className="font-playfair font-semibold text-5xl">Other</p>
+                            <p className="font-playfair font-semibold text-3xl mt-3">Technologies</p>
                         </div>
                         <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                     </div>
-                    <p className="mt-5">
-                        THIRD TEST TEST TEST TETSTET TESTE 
+                    <p className="mt-5 sm:grid sm:grid-cols-4">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" width="100" height="100" alt="npm"/>
                     </p>
                 </motion.div>
-            </div>
+            </div>                
 
         </section>
     );
