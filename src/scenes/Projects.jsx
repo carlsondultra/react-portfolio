@@ -16,7 +16,6 @@ const projectVariant = {
 const Project = ({ title, description, image, demo, repo }) => {
     const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
         bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`; //text that pops over image
-    const projectTitle = title.split(" ").join("-").toLowerCase();
 
     return (
         <motion.div variants={projectVariant} className="relative">
@@ -24,8 +23,8 @@ const Project = ({ title, description, image, demo, repo }) => {
                 <p className="text-2xl font-playfair">{title}</p>
                 <p className="mt-7">
                     {description}<br></br><br></br>
-                    <a href={demo} target="_blank">DEMO</a> <br></br>
-                    <a href={repo} target="_blank">REPO</a>
+                    <a href={demo} target="_blank" rel="noreferrer">DEMO</a> <br></br>
+                    <a href={repo} target="_blank" rel="noreferrer">REPO</a>
                 </p>
             </div>
             {/* <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} /> */}
@@ -80,7 +79,7 @@ const Projects = () => {
                         demo="https://www.w3schools.com/" 
                         repo="https://github.com/carlsondultra/react-portfolio"
                     />
-                    <Project 
+                    {/* <Project 
                         title="Title Project 2" 
                         description="Description Project 2" 
                         image="project-2"
@@ -93,7 +92,7 @@ const Projects = () => {
                         image="project-3"
                         demo="https://www.w3schools.com/" 
                         repo="https://www.w3schools.com/"
-                    />
+                    /> */}
 
                     {/* ROW 2 */}
 
