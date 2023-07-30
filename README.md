@@ -7,5 +7,6 @@ Created using React, Framer-Motion, and Tailwind.
 ```
 git clone https://github.com/carlsondultra/react-portfolio.git
 cd react-portfolio
+npm install
 npm start
 ```
