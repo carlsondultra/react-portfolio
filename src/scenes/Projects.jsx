@@ -24,8 +24,8 @@ const Project = ({ title, description, image, demo, repo }) => {
                 <p className="text-2xl font-playfair">{title}</p>
                 <p className="mt-7">
                     {description}<br></br><br></br>
-                    <a href={demo}>DEMO</a> <br></br>
-                    <a href={repo}>REPO</a>
+                    <a href={demo} target="_blank">DEMO</a> <br></br>
+                    <a href={repo} target="_blank">REPO</a>
                 </p>
             </div>
             {/* <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} /> */}
@@ -72,29 +72,32 @@ const Projects = () => {
                     variants={container}    
                 >
                     {/* ROW 1 */}
-                    <div
-                        className="flex justify-center text-center items-center p-10 bg-red
-                            max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
-                    >
-                        PROJECTS
-                    </div>
-                    <Project title="Title Project 1" description="Description Project 1" image="project-1" demo="https://www.w3schools.com/" repo="https://www.w3schools.com"/>
-                    <Project title="Title Project 2" description="Description Project 2" image="project-2"/>
+
+                    <Project 
+                        title="Portfolio Website" 
+                        description="Website created to showcase my skills and projects, done using React" 
+                        image="project-1" 
+                        demo="https://www.w3schools.com/" 
+                        repo="https://github.com/carlsondultra/react-portfolio"
+                    />
+                    <Project 
+                        title="Title Project 2" 
+                        description="Description Project 2" 
+                        image="project-2"
+                        demo="https://www.w3schools.com/" 
+                        repo="https://www.w3schools.com/"
+                    />
+                    <Project 
+                        title="Title Project 3" 
+                        description="Description Project 3" 
+                        image="project-3"
+                        demo="https://www.w3schools.com/" 
+                        repo="https://www.w3schools.com/"
+                    />
 
                     {/* ROW 2 */}
-                    <Project title="Project 3" />
-                    <Project title="Project 4" />
-                    <Project title="Project 5" />
 
                     {/* ROW 3 */}
-                    <Project title="Project 6" />
-                    <Project title="Project 7" />
-                    <div
-                        className="flex justify-center text-center items-center p-10 bg-blue
-                            max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
-                    >
-                        THIS IS DIFFERENT INTERFACE
-                    </div>
 
                 </motion.div>
             </div>
