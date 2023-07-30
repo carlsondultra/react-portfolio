@@ -13,7 +13,7 @@ const projectVariant = {
     visible: {opacity: 1, scale: 1 }
 }
 
-const Project = ({ title }) => {
+const Project = ({ title, description, image, demo, repo }) => {
     const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
         bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`; //text that pops over image
     const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -23,10 +23,13 @@ const Project = ({ title }) => {
             <div className={overlayStyles}>
                 <p className="text-2xl font-playfair">{title}</p>
                 <p className="mt-7">
-                    PROJECT TEST TEXT
+                    {description}<br></br><br></br>
+                    <a href={demo}>DEMO</a> <br></br>
+                    <a href={repo}>REPO</a>
                 </p>
             </div>
-            <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+            {/* <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} /> */}
+            <img src={`../assets/${image}.jpeg`} alt={image} />
         </motion.div>
     )
 }
@@ -55,7 +58,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <p className="mt-10 mb-10">
-                    TEST TEXT ETSTOESTESTOIESTOESITIOETLTESETSTESTTESTTEST
+                    Below is a list of projects that I am either working on, or have completed!
                 </p>
             </motion.div>
 
@@ -73,10 +76,10 @@ const Projects = () => {
                         className="flex justify-center text-center items-center p-10 bg-red
                             max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
                     >
-                        THIS IS INTERFACE
+                        PROJECTS
                     </div>
-                    <Project title="Project 1" />
-                    <Project title="Project 2" />
+                    <Project title="Title Project 1" description="Description Project 1" image="project-1" demo="https://www.w3schools.com/" repo="https://www.w3schools.com"/>
+                    <Project title="Title Project 2" description="Description Project 2" image="project-2"/>
 
                     {/* ROW 2 */}
                     <Project title="Project 3" />
