@@ -1,6 +1,18 @@
 # My Portfolio Website
 
-Created using React, Framer-Motion, and Tailwind.
+Used the following packages:
+
+React for main framework library.
+
+Tailwind CSS for styling.
+
+Framer-Motion for handling of animations.
+
+react-hook-form for form validation.
+
+react-anchor-link-smooth-scroll for page navigation.
+
+FormSubmit to send messages to email.
 
 # Getting Started
 
