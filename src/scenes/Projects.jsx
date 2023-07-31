@@ -76,7 +76,7 @@ const Projects = () => {
                         title="Portfolio Website" 
                         description="Website created to showcase my skills and projects, done using React" 
                         image="project-1" 
-                        demo="https://www.w3schools.com/" 
+                        demo="https://carlsondultra.vercel.app/" 
                         repo="https://github.com/carlsondultra/react-portfolio"
                     />
                     {/* <Project 
