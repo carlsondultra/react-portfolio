@@ -22,3 +22,6 @@ cd react-portfolio
 npm install
 npm start
 ```
+
+# LIVE DEMO 
+Alternatively, check out the live demo at: https://carlsondultra.vercel.app/
