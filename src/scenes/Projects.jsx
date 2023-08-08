@@ -23,8 +23,8 @@ const Project = ({ title, description, image, demo, repo }) => {
                 <p className="text-2xl font-playfair">{title}</p>
                 <p className="mt-7">
                     {description}<br></br><br></br>
-                    <a href={demo} target="_blank" rel="noreferrer">DEMO</a> <br></br>
-                    <a href={repo} target="_blank" rel="noreferrer">REPO</a>
+                    <a href={demo} target="_blank" rel="noreferrer">LINK TO DEMO</a> <br></br>
+                    <a href={repo} target="_blank" rel="noreferrer">LINK TO REPO</a>
                 </p>
             </div>
             {/* <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} /> */}
