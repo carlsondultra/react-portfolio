@@ -81,11 +81,21 @@ const Projects = () => {
                     />
                     <Project 
                         title="Portfolio Website" 
-                        description="Website created to showcase my skills and projects, done using React" 
+                        description="Portfolio website to showcase my skills and projects, created using React and TailwindCSS." 
                         image="project-1" 
                         demo="https://carlsondultra.vercel.app/" 
                         repo="https://github.com/carlsondultra/react-portfolio"
                     />
+                    <Project 
+                        title="Previous Portfolio Website" 
+                        description="Previous portfolio website, created using React and Styled-Components." 
+                        image="project-3"
+                        demo="https://carlsondultra.github.io/" 
+                        repo="https://github.com/carlsondultra/carlsondultra.github.io"
+                    /> 
+
+                    {/* ROW 2 */}
+
                     {/* <Project 
                         title="Title Project 3" 
                         description="Description Project 3" 
@@ -94,8 +104,22 @@ const Projects = () => {
                         repo="https://www.w3schools.com/"
                     />  */}
 
-                    {/* ROW 2 */}
+                    {/* <Project 
+                        title="Title Project 3" 
+                        description="Description Project 3" 
+                        image="project-3"
+                        demo="https://www.w3schools.com/" 
+                        repo="https://www.w3schools.com/"
+                    />  */}
 
+                    {/* <Project 
+                        title="Title Project 3" 
+                        description="Description Project 3" 
+                        image="project-3"
+                        demo="https://www.w3schools.com/" 
+                        repo="https://www.w3schools.com/"
+                    />  */}
+                
                     {/* ROW 3 */}
 
                 </motion.div>
