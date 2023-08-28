@@ -73,18 +73,18 @@ const Projects = () => {
                     {/* ROW 1 */}
 
                     <Project 
-                        title="Portfolio Website" 
-                        description="Website created to showcase my skills and projects, done using React" 
-                        image="project-1" 
-                        demo="https://carlsondultra.vercel.app/" 
-                        repo="https://github.com/carlsondultra/react-portfolio"
-                    />
-                    <Project 
                         title="Carlson's Convenience" 
                         description="An e-commerce application created using NextJS, TailwindCSS, Zustand, and Stripe!" 
                         image="project-2"
                         demo="https://carlsonsconvenience.vercel.app/" 
                         repo="https://github.com/carlsondultra/nextjs-store"
+                    />
+                    <Project 
+                        title="Portfolio Website" 
+                        description="Website created to showcase my skills and projects, done using React" 
+                        image="project-1" 
+                        demo="https://carlsondultra.vercel.app/" 
+                        repo="https://github.com/carlsondultra/react-portfolio"
                     />
                     {/* <Project 
                         title="Title Project 3" 
