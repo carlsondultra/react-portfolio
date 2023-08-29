@@ -73,6 +73,14 @@ const Projects = () => {
                     {/* ROW 1 */}
 
                     <Project 
+                        title="Quiz-It" 
+                        description="AI Quiz Application created using NextJS, OpenAI, Prisma, TailwindCSS, shadcn and NextAuth." 
+                        image="project-4"
+                        demo="https://quiz-it-delta.vercel.app/" 
+                        repo="https://github.com/carlsondultra/openai-quiz"
+                    /> 
+
+                    <Project 
                         title="Carlson's Convenience" 
                         description="An e-commerce application created using NextJS, TailwindCSS, Zustand, and Stripe!" 
                         image="project-2"
@@ -86,6 +94,9 @@ const Projects = () => {
                         demo="https://carlsondultra.vercel.app/" 
                         repo="https://github.com/carlsondultra/react-portfolio"
                     />
+
+                    {/* ROW 2 */}
+
                     <Project 
                         title="Previous Portfolio Website" 
                         description="Previous portfolio website, created using React and Styled-Components." 
@@ -93,16 +104,6 @@ const Projects = () => {
                         demo="https://carlsondultra.github.io/" 
                         repo="https://github.com/carlsondultra/carlsondultra.github.io"
                     /> 
-
-                    {/* ROW 2 */}
-
-                    {/* <Project 
-                        title="Title Project 3" 
-                        description="Description Project 3" 
-                        image="project-3"
-                        demo="https://www.w3schools.com/" 
-                        repo="https://www.w3schools.com/"
-                    />  */}
 
                     {/* <Project 
                         title="Title Project 3" 
