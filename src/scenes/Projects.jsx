@@ -105,13 +105,13 @@ const Projects = () => {
                         repo="https://github.com/carlsondultra/carlsondultra.github.io"
                     /> 
 
-                    {/* <Project 
-                        title="Title Project 3" 
-                        description="Description Project 3" 
-                        image="project-3"
-                        demo="https://www.w3schools.com/" 
-                        repo="https://www.w3schools.com/"
-                    />  */}
+                    <Project 
+                        title="Game Review" 
+                        description="A Game Review application created using PostgreSQL, Express.js, React.js, and Node.js." 
+                        image="project-5"
+                        // demo="https://www.w3schools.com/" 
+                        repo="https://github.com/carlsondultra/review"
+                    /> 
 
                     {/* <Project 
                         title="Title Project 3" 
