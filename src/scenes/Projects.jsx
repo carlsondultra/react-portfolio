@@ -88,14 +88,22 @@ const Projects = () => {
                         repo="https://github.com/carlsondultra/nextjs-store"
                     />
                     <Project 
+                        title="Game Review" 
+                        description="A Game Review application created using PostgreSQL, Express.js, React.js, and Node.js." 
+                        image="project-5"
+                        // demo="https://www.w3schools.com/" 
+                        repo="https://github.com/carlsondultra/review"
+                    /> 
+
+                    {/* ROW 2 */}
+
+                    <Project 
                         title="Portfolio Website" 
                         description="Portfolio website to showcase my skills and projects, created using React and TailwindCSS." 
                         image="project-1" 
                         demo="https://carlsondultra.vercel.app/" 
                         repo="https://github.com/carlsondultra/react-portfolio"
                     />
-
-                    {/* ROW 2 */}
 
                     <Project 
                         title="Previous Portfolio Website" 
@@ -104,14 +112,7 @@ const Projects = () => {
                         demo="https://carlsondultra.github.io/" 
                         repo="https://github.com/carlsondultra/carlsondultra.github.io"
                     /> 
-
-                    <Project 
-                        title="Game Review" 
-                        description="A Game Review application created using PostgreSQL, Express.js, React.js, and Node.js." 
-                        image="project-5"
-                        // demo="https://www.w3schools.com/" 
-                        repo="https://github.com/carlsondultra/review"
-                    /> 
+                    
 
                     {/* <Project 
                         title="Title Project 3" 
