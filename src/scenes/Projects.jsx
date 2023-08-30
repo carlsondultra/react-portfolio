@@ -1,38 +1,6 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
 
-const container = {
-    hidden: {},
-    visible: {
-        transition: { staggerChildren: 0.2 }
-    }
-};
-
-const projectVariant = {
-    hidden: { opacity: 0, scale: 0.8 },
-    visible: {opacity: 1, scale: 1 }
-}
-
-const Project = ({ title, description, image, demo, repo }) => {
-    const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-        bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`; //text that pops over image
-
-    return (
-        <motion.div variants={projectVariant} className="relative">
-            <div className={overlayStyles}>
-                <p className="text-2xl font-playfair">{title}</p>
-                <p className="mt-7">
-                    {description}<br></br><br></br>
-                    <a href={demo} target="_blank" rel="noreferrer">LINK TO DEMO</a> <br></br>
-                    <a href={repo} target="_blank" rel="noreferrer">LINK TO REPO</a>
-                </p>
-            </div>
-            {/* <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} /> */}
-            <img src={`../assets/${image}.jpeg`} alt={image} />
-        </motion.div>
-    )
-}
-
 const Projects = () => {
     return (
         <section id="projects" className="pt-48 pb-48">
