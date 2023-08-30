@@ -79,12 +79,12 @@ const Projects = () => {
                         <br />
                     </div>
                     <div class="inline-flex">
-                        <a target="_blank" href="https://github.com/carlsondultra/nextjs-store">
+                        <a target="_blank" rel="noreferrer" href="https://github.com/carlsondultra/nextjs-store">
                             <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-l">
                                 View Repository
                             </button>
                         </a>
-                        <a target="_blank" href="https://carlsonsconvenience.vercel.app/">
+                        <a target="_blank" rel="noreferrer" href="https://carlsonsconvenience.vercel.app/">
                             <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-r">
                                 Visit Demo
                             </button>
@@ -121,12 +121,12 @@ const Projects = () => {
                         <br />
                     </div>
                     <div class="inline-flex">
-                        <a target="_blank" href="https://github.com/carlsondultra/openai-quiz">
+                        <a target="_blank" rel="noreferrer" href="https://github.com/carlsondultra/openai-quiz">
                             <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-l">
                                 View Repository
                             </button>
                         </a>
-                        <a target="_blank" href="https://quiz-it-delta.vercel.app/">
+                        <a target="_blank" rel="noreferrer" href="https://quiz-it-delta.vercel.app/">
                             <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-r">
                                 Visit Demo
                             </button>
@@ -157,12 +157,12 @@ const Projects = () => {
                         <br />
                     </div>
                     <div class="inline-flex">
-                        <a target="_blank" href="https://github.com/carlsondultra/react-portfolio">
+                        <a target="_blank" rel="noreferrer" href="https://github.com/carlsondultra/react-portfolio">
                             <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-l">
                                 View Repository
                             </button>
                         </a>
-                        <a target="_blank" href="https://carlsondultra.vercel.app/">
+                        <a target="_blank" rel="noreferrer" href="https://carlsondultra.vercel.app/">
                             <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-r">
                                 Visit Demo
                             </button>
@@ -200,12 +200,12 @@ const Projects = () => {
                         <br />
                     </div>
                     <div class="inline-flex">
-                        <a target="_blank" href="https://github.com/carlsondultra/carlsondultra.github.io">
+                        <a target="_blank" rel="noreferrer" href="https://github.com/carlsondultra/carlsondultra.github.io">
                             <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-l">
                                 View Repository
                             </button>
                         </a>
-                        <a target="_blank" href="https://carlsondultra.github.io/">
+                        <a target="_blank" rel="noreferrer" href="https://carlsondultra.github.io/">
                             <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-r">
                                 Visit Demo
                             </button>
@@ -238,7 +238,7 @@ const Projects = () => {
                         <br />
                     </div>
                     <div class="inline-flex">
-                        <a target="_blank" href="https://github.com/carlsondultra/review">
+                        <a target="_blank" rel="noreferrer" href="https://github.com/carlsondultra/review">
                             <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-l">
                                 View Repository
                             </button>
