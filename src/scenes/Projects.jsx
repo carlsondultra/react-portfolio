@@ -32,7 +32,7 @@ const Projects = () => {
             {/* PROJECTS */}
 
             {/* First Project */}
-            <div class="container mx-auto grid grid-cols-2 gap-4">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
                 <div class="px-7">
                     <p className="font-playfair font-semibold text-4xl"> Carlson's <span className="text-red">Convenience</span> </p>
                     <br />
@@ -72,7 +72,7 @@ const Projects = () => {
             <br />
 
             {/* Second Project */}
-            <div class="container mx-auto grid grid-cols-2 gap-4">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
                 <div>
                     <img class="object-scale-down" src="../assets/quizproject.jpeg" alt="Quiz Screenshot"/>                
                 </div>
@@ -111,7 +111,7 @@ const Projects = () => {
             <br />
 
             {/* Third Project */}
-            <div class="container mx-auto grid grid-cols-2 gap-4">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
                 <div class="px-7">
                     <p className="font-playfair font-semibold text-4xl"> Portfolio <span className="text-red">Website</span> </p>
                     <br />
@@ -151,7 +151,7 @@ const Projects = () => {
 
             
             {/* Fourth Project */}
-            <div class="container mx-auto grid grid-cols-2 gap-4">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
                 <div>
                     <img class="object-scale-down" src="../assets/oldportfolioproject.jpeg" alt="Old Portfolio Screenshot"/>                
                 </div>
@@ -192,7 +192,7 @@ const Projects = () => {
 
             
             {/* Fifth Project */}
-            <div class="container mx-auto grid grid-cols-2 gap-4">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
                 <div class="px-7">
                     <p className="font-playfair font-semibold text-4xl"> Game <span className="text-red">Review</span> </p>
                     <br />
