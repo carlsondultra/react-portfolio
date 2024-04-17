@@ -111,37 +111,7 @@ const Projects = () => {
             <br />
 
             {/* Third Project */}
-            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
-                <div class="px-7">
-                    <p className="font-playfair font-semibold text-4xl"> Portfolio <span className="text-red">Website</span> </p>
-                    <br />
-                    <p class="text-stone-400">React.js, TailwindCSS</p>
-                    <br />
-                    <div class="container mx-auto">
-                        <p 
-                            class="text-stone-200">
-                                Portfolio website to showcase my skills and projects, created using React and TailwindCSS.
-                            </p>
-                        <br />
-                    </div>
-                    <div class="inline-flex">
-                        <a target="_blank" rel="noreferrer" href="https://github.com/carlsondultra/react-portfolio">
-                            <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-l">
-                                View Repository
-                            </button>
-                        </a>
-                        <a target="_blank" rel="noreferrer" href="https://carlsondultra.vercel.app/">
-                            <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-r">
-                                Visit Demo
-                            </button>
-                        </a>
-                    </div>
-                </div>
-                <div>
-                    <img class="object-scale-down" src="../assets/portfolioproject.jpeg" alt="Portfolio Screenshot"/>                
-                </div>
-            </div>
-            <br/>
+           
 
             {/* Line Divider */}
             <div className="flex justify-center mt-5">
@@ -151,38 +121,7 @@ const Projects = () => {
 
             
             {/* Fourth Project */}
-            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
-                <div>
-                    <img class="object-scale-down" src="../assets/oldportfolioproject.jpeg" alt="Old Portfolio Screenshot"/>                
-                </div>
-                <div class="px-7">
-                    <p className="font-playfair font-semibold text-4xl"> <span className="text-red">Previous </span> Portfolio Website </p>
-                    <br />
-                    <p class="text-stone-400">React.js, HTML, CSS, Styled-Components</p>
-                    <br />
-                    <div class="container mx-auto">
-                        <p 
-                            class="text-stone-200">
-                                Previous portfolio website, created using React, HTML, CSS and Styled-Components.
-                            </p>
-                        <br />
-                    </div>
-                    <div class="inline-flex">
-                        <a target="_blank" rel="noreferrer" href="https://github.com/carlsondultra/carlsondultra.github.io">
-                            <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-l">
-                                View Repository
-                            </button>
-                        </a>
-                        <a target="_blank" rel="noreferrer" href="https://carlsondultra.github.io/">
-                            <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded-r">
-                                Visit Demo
-                            </button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <br/>
-
+            
 
             {/* Line Divider */}
             <div className="flex justify-center mt-5">
